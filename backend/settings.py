@@ -84,6 +84,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS — allow frontend dev server
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
+    'https://projectgrouping.onrender',
 ]
 # For simple dev, allow all
 CORS_ALLOW_ALL_ORIGINS = True
